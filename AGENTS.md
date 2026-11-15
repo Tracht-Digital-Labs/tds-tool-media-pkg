@@ -28,6 +28,7 @@ npm run lint:primitives         # fails on a control without a shared class
 - This pack only **marks** `pdf-tools` as premium. The paywall lives in the site and in `tds-ext-tools-pkg`.
 - Stay inside the `0.2.x` line. The site pins `^0.2.0`, so a minor bump needs a coordinated repin.
 - The real gate for `islands/` and `tools/` is the `tds-tools-frontend` build, not `type-check` here.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 

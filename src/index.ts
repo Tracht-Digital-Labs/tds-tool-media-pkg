@@ -33,7 +33,7 @@ export default defineToolPack({
       ],
       component: "@tracht-digital-solutions/tds-tool-media/tools/ImageCompress.astro",
       seo: {
-        title: "Bilder komprimieren & JPG-Größe verkleinern – kostenlos",
+        title: "Bilder komprimieren & JPG-Größe verkleinern, kostenlos",
         description:
           "Bilder komprimieren und JPG-Größe verkleinern: mehrere Fotos auf einmal, Zielgröße in KB, JPG, WebP, PNG, AVIF. Kostenlos, ohne Upload im Browser.",
       },
@@ -44,14 +44,14 @@ export default defineToolPack({
       name: "PDF-Werkzeuge",
       category: "media",
       description:
-        "PDFs zusammenführen, aufteilen und Seiten drehen — schnell und lokal im Browser, ohne Upload.",
+        "PDFs zusammenführen, aufteilen und Seiten drehen, schnell und lokal im Browser, ohne Upload.",
       icon: "file-text",
       keywords: ["pdf", "merge", "split", "zusammenführen", "teilen", "drehen"],
       component: "@tracht-digital-solutions/tds-tool-media/tools/PdfTools.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "PDF-Werkzeuge — zusammenführen, teilen, drehen",
+        title: "PDF-Werkzeuge, zusammenführen, teilen, drehen",
         description:
           "PDF-Werkzeuge: mehrere PDFs zusammenführen, aufteilen und Seiten drehen. Direkt im Browser, kein Upload.",
       },
