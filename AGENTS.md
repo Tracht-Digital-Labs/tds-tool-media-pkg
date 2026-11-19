@@ -2,7 +2,7 @@
 
 Tool pack for the public tools platform: image compressor (free) and PDF toolkit
 (premium: merge, split, rotate). It builds against
-`@tracht-digital-solutions/tds-tools-contract` and is composed into `tds-tools-frontend`
+`@tracht-digital-labs/tds-tools-contract` and is composed into `tds-tools-frontend`
 at build time. Both tools run fully in the browser.
 
 The platform rules (unique ids, package-subpath components, contract stability)

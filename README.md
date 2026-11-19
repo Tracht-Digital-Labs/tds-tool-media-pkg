@@ -1,4 +1,4 @@
-# @tracht-digital-solutions/tds-tool-media
+# @tracht-digital-labs/tds-tool-media
 
 Media utilities for the **TDS tools platform** (`tds-tools-frontend`). Fully client-side —
 nothing is uploaded.

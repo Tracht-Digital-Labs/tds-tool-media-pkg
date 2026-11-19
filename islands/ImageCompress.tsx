@@ -14,9 +14,9 @@ import {
   type EncodableMime,
   type OutputFormat,
 } from "./compressCore";
-import { FileDropZone } from "@tracht-digital-solutions/tds-shared/dropzone";
-import { downloadBytes } from "@tracht-digital-solutions/tds-shared/download";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { FileDropZone } from "@tracht-digital-labs/tds-shared/dropzone";
+import { downloadBytes } from "@tracht-digital-labs/tds-shared/download";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 /** See the tools-site convention: labels are translated, logic is not. */
 type Lang = "de" | "en";

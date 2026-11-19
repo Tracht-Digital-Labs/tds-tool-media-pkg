@@ -8,8 +8,8 @@
  * function of scale and quality.
  */
 
-import { formatBytes } from "@tracht-digital-solutions/tds-shared/format";
-import { createZip as writeZip } from "@tracht-digital-solutions/tds-shared/zip";
+import { formatBytes } from "@tracht-digital-labs/tds-shared/format";
+import { createZip as writeZip } from "@tracht-digital-labs/tds-shared/zip";
 
 /** Output formats the tool offers. `original` keeps the input's own type. */
 export type OutputFormat = "image/jpeg" | "image/webp" | "image/png" | "image/avif" | "original";
@@ -201,7 +201,7 @@ export function uniqueNames(names: string[]): string[] {
 }
 
 /** CRC-32 (IEEE), as the ZIP format requires for every entry. */
-export { crc32 } from "@tracht-digital-solutions/tds-shared/zip";
+export { crc32 } from "@tracht-digital-labs/tds-shared/zip";
 
 /**
  * A ZIP archive with every entry STORED (no deflate), written by tds-shared's

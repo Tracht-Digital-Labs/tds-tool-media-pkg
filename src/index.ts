@@ -1,4 +1,4 @@
-import { defineToolPack, defineTool } from "@tracht-digital-solutions/tds-tools-contract";
+import { defineToolPack, defineTool } from "@tracht-digital-labs/tds-tools-contract";
 
 /**
  * Media utilities: a free client-side image compressor (batch, target size,
@@ -31,7 +31,7 @@ export default defineToolPack({
         "webp",
         "avif",
       ],
-      component: "@tracht-digital-solutions/tds-tool-media/tools/ImageCompress.astro",
+      component: "@tracht-digital-labs/tds-tool-media/tools/ImageCompress.astro",
       seo: {
         title: "Bilder komprimieren & JPG-Größe verkleinern, kostenlos",
         description:
@@ -47,7 +47,7 @@ export default defineToolPack({
         "PDFs zusammenführen, aufteilen und Seiten drehen, schnell und lokal im Browser, ohne Upload.",
       icon: "file-text",
       keywords: ["pdf", "merge", "split", "zusammenführen", "teilen", "drehen"],
-      component: "@tracht-digital-solutions/tds-tool-media/tools/PdfTools.astro",
+      component: "@tracht-digital-labs/tds-tool-media/tools/PdfTools.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
